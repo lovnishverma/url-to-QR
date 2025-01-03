@@ -12,7 +12,7 @@ def generate_qr_code(url, file_name):
         version=1,  # Controls the size of the QR code (1 is the smallest)
         error_correction=qrcode.constants.ERROR_CORRECT_L,  # Error correction level
         box_size=10,  # Size of each box in the QR code grid
-        border=1,  # Thickness of the border (minimum is 4)
+        border=4,  # Thickness of the border (minimum is 4)
     )
 
     # Add data to the QR code
